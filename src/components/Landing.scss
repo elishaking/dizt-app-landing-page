@@ -1,1 +1,149 @@
-#landing {}
+#landing {
+  height: 100vh;
+  background: url(../assets/img/bg.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 10vw;
+
+    h1 {
+      display: flex;
+      align-items: center;
+      color: #005E8D;
+      font-weight: 500;
+
+      svg {
+        margin-right: 1em;
+      }
+    }
+
+    ul {
+      display: flex;
+      list-style: none;
+
+      li {
+        margin-right: 2em;
+      }
+
+      li:last-child {
+        margin: 0;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+        transition: 0.3s ease-in-out;
+      }
+
+      a:hover {
+        color: #78D2FF;
+      }
+    }
+  }
+
+  .content {
+    display: flex;
+    padding: 2em 10vw;
+    justify-content: space-between;
+    color: #005E8D;
+
+    .right {
+      width: 40%;
+      // display: flex;
+      // flex-direction: column;
+      // justify-content: center;
+
+      div {
+        width: fit-content;
+
+        img {
+          width: 100%;
+        }
+      }
+
+    }
+
+    .left {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      a svg {
+        transition: 0.3s ease-in-out;
+      }
+
+      a svg:hover {
+        transform: scale(1.03);
+      }
+
+      h1 {
+        font-size: 300%;
+        margin-bottom: 3vh;
+      }
+
+      p {
+        margin-bottom: 3vh;
+      }
+
+      #g-play {
+        margin-bottom: 3vh;
+      }
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .content {
+      .left {
+        width: 50%;
+      }
+
+      .right {
+        width: 35%;
+      }
+    }
+  }
+
+  @media (max-width: 1000px) {
+    background: white;
+    height: fit-content;
+
+    nav {
+      ul {
+        display: none;
+      }
+    }
+
+    .content {
+      display: block;
+
+      .left {
+        width: 100%;
+        margin-bottom: 10vh;
+      }
+
+      .right {
+        width: 100%;
+
+        div {
+          margin: auto;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 760px) {
+    .content {
+      text-align: center;
+
+      .left svg {
+        height: 8vh;
+      }
+    }
+  }
+}

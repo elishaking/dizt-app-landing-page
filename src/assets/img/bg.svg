@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-LandingPage">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="LandingPage" clip-path="url(#clip-LandingPage)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <g id="bg">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="1920" height="1080" fill="#fff"/>
+      <path id="Path_5" data-name="Path 5" d="M999.553-6.3s-17.02,253.758,249.624,354.219,313.775,136.8,409.784,280.914,93.827,444.867,93.827,444.867h200.747V-6.3Z" transform="translate(-31.335 5.165)" fill="#52a1c5"/>
+      <path id="Path_7" data-name="Path 7" d="M999.6-6.3S978.8,297.823,1304.743,418.224,1688.3,582.179,1805.665,754.895s114.695,533.167,114.695,533.167h245.394V-6.3Z" transform="matrix(0.999, -0.035, 0.035, 0.999, -265.717, -20.633)" fill="#1f688a" opacity="0.58"/>
+    </g>
+  </g>
+</svg>

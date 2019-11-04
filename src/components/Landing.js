@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Landing.scss';
 import GooglePlayIcon from './GooglePlayIcon';
 
 export default class Landing extends Component {
